@@ -1,0 +1,96 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.top{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    overflow: hidden;
+}
+.time{
+    width: 1000px;
+    height: 100px;
+    margin: 100px auto;
+    text-align: center;
+    line-height: 100px;
+    font-size: 78px;
+    letter-spacing: 50px;
+    font-family: 方正舒体;
+    /*font-family: 'Roboto Slab Bold';*/
+
+    background-color: #ffea00;
+    /*background-color: #fff;*/
+    background-image:
+        linear-gradient(
+            45deg,
+            transparent 45%,
+            hsla(48,20%,90%,1) 45%,
+            hsla(48,20%,90%,1) 55%,
+            transparent 0
+        );
+    background-size: .05em .05em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #605f5f;
+}
+.sj{
+    width: 100%;
+    height: auto;
+    padding: 0 calc((100% - 1000px)/2);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cent{
+    width: 100%;
+    height: auto;
+    padding: 0 calc((100% - 950px)/2);
+    float: left;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bor{
+    float: left;
+    width: 130px;
+    height: 174px;
+    margin: 0 50px;
+
+}
+span{
+    display: inline-block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Roboto Slab Bold';
+    background-color: rgba(255,255,255,0.5);
+    border: 1px #fff solid;
+
+    font-weight: bold;
+    font-size: 80px;
+    color: #ffea00;
+    /*color: #ffffff;*/
+    line-height: 100px;
+}
+b{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-top: -35px;
+
+    font-size: 20px;
+    font-family: 'Roboto Slab Bold';
+    color: #ffea00;
+    /*color: #ffffff;*/
+    line-height: 100px;
+}
