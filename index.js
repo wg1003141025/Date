@@ -2,7 +2,8 @@ window.onload = function () {
     move();
     let time = setInterval(move,1000);
     function move() {
-        let date = new Date(2018,1,8,18,0,0);
+        // 月份-1
+        let date = new Date(2020,0,18,0,0,0);
         let now = new Date();
         let mcha = Math.floor((date.getTime()-now.getTime())/1000);
         let day = Math.floor(mcha/3600/24);
